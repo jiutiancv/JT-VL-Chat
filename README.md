@@ -1,7 +1,7 @@
 # JT-VL-Chat
 JT-VL-Chat是一个多模态大模型。
 # 更新日志
-2024-05-31：发布推理API。
+2024-06-03：发布推理API。
 # 快速上手
 ## 访问API  
 登录https://jiutian.10086.cn/portal/#/home, 右上角注册用户信息。待审核通过后，即可获得access_token并访问API。  
@@ -12,7 +12,7 @@ JT-VL-Chat是一个多模态大模型。
 python inference.py --image-file xxx --query xxx
 ```
 ## MME评测
-下载[MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation)评估图片和评估问题，将图片放入mme_images文件夹中，问题放入mme_queries文件夹中  
+下载[MME](https://pan.baidu.com/s/1wb0fkmNN_xI1OYvJzuseEA)评估图片和评估问题（提取码：7431），将图片放入mme_images文件夹中，问题放入mme_queries文件夹中  
 将用户名和密码填写到mme_eval.py中，然后：  
 ```python
 python mme_eval.py
