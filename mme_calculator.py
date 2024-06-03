@@ -93,7 +93,7 @@ class calculate_metrics:
             for task_name in task_name_list:
 
                 task_txt = os.path.join(results_dir, task_name + ".txt")
-                lines = open(task_txt, 'r').readlines()
+                lines = open(task_txt, 'r',encoding='utf-8').readlines()
                 chunk_lines = list(self.divide_chunks(lines)) # one image corresponds to two questions
                 
                 img_num = len(chunk_lines)
