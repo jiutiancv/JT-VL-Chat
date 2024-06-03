@@ -17,4 +17,4 @@ python inference.py --image-file xxx --query xxx --url ${API地址}
 ```python
 python mme_eval.py --url ${API地址}
 ```
-结果文件保存在outputs文件夹中，最后的指标结果在outputs/mme_results.txt中
+结果文件保存在outputs文件夹中，最后的指标结果在mme_results.txt中
