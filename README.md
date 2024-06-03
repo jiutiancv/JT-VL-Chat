@@ -9,12 +9,12 @@ API地址：https://jiutian.10086.cn/kunlun/ingress/api/h3t-eeceff/92390745235a4
 ## 推理   
 首先将用户名和密码填写到inference.py中，然后：  
 ```python
-python inference.py --image-file xxx --query xxx --not-sample --url ${API地址}
+python inference.py --image-file xxx --query xxx --do-sample --url ${API地址}
 ```
 ## MME评测
 下载[MME](https://pan.baidu.com/s/1wb0fkmNN_xI1OYvJzuseEA)评估图片和评估问题（提取码：7431），将图片放入mme_images文件夹中，问题放入mme_queries文件夹中  
 将用户名和密码填写到mme_eval.py中，然后：  
 ```python
-python mme_eval.py --not-sample --url ${API地址}
+python mme_eval.py --do-sample --url ${API地址}
 ```
 结果文件保存在outputs文件夹中，最后的指标结果在outputs/mme_results.txt中
