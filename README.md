@@ -20,4 +20,3 @@ python mme_eval.py --url ${服务API地址}
 结果文件保存在outputs文件夹中，最后的指标结果在mme_results.txt中  
 JT-VL-Chat在perception任务上得到了1642.51分
 
-如有问题，请联系：wangjinjin@chinamobile.com
