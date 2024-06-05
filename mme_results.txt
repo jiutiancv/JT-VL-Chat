@@ -1,0 +1,20 @@
+===========Perception===========
+total score: 1642.5114045618247
+	existence score:185.0
+	count score:173.33333333333334
+	position score:145.0
+	color score:175.0
+	posters score:168.7074829931973
+	celebrity score:161.47058823529412
+	scene score:157.75
+	landmark score:173.5
+	artwork score:132.75
+	OCR score:170.0
+
+===========Cognition===========
+total score: 339.6428571428571
+	commonsense_reasoning score:122.14285714285714
+	numerical_calculation score:67.5
+	text_translation score:105.0
+	code_reasoning score:45.0
+
