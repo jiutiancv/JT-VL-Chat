@@ -5,7 +5,7 @@ JT-VL-Chat是一个多模态大模型。
 # 快速上手
 ## 访问API  
 登录https://jiutian.10086.cn/portal/#/home, 右上角注册用户信息。待审核通过后，在代码中填写用户名和密码，即可获得access_token并访问API。  
-API地址：https://jiutian.10086.cn/kunlun/ingress/api/h3t-eeceff/92390745235a40a484d850be19e1f8b4/ai-9072cb8293e94981b0b86aebb87d0002/service-8443a3d1e7af4ca384695b538e945d7f/v1/chat/completions
+API地址：https://jiutian.10086.cn/kunlun/ingress/api/h3t-eeceff/92390745235a40a484d850be19e1f8b4/ai-9072cb8293e94981b0b86aebb87d0002/service-8443a3d1e7af4ca384695b538e945d7f/v1/chat/completions  
 ## 推理   
 首先将用户名和密码填写到inference.py中，然后：  
 ```python
@@ -17,4 +17,5 @@ python inference.py --image-file xxx --query xxx --url ${API地址}
 ```python
 python mme_eval.py --url ${API地址}
 ```
-结果文件保存在outputs文件夹中，最后的指标结果在mme_results.txt中
+结果文件保存在outputs文件夹中，最后的指标结果在mme_results.txt中  
+JT-VL-Chat在perception任务上得到了1642.51分
